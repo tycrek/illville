@@ -16,6 +16,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     
     implementation 'org.geysermc.mcprotocollib:protocol:1.21.4-SNAPSHOT'
+    implementation 'com.github.ttRMS:TittyCrypt:0.2.1'
     compileOnly 'org.projectlombok:lombok:1.18.34'
 }
 
