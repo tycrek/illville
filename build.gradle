@@ -7,11 +7,16 @@ version = '0.0.0-DEV'
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.opencollab.dev/main/' }
+    maven { url 'https://www.jitpack.io' }
 }
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    
+    implementation 'org.geysermc.mcprotocollib:protocol:1.21.4-SNAPSHOT'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
 }
 
 test {
